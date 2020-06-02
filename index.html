@@ -1,0 +1,14 @@
+<h1>authorization-lambda-at-edge python using dynamodb</h1>
+<p>Code demonstrates authorization with Lambda@Edge along with Cloudfront and S3 static web pages</p>
+<p>&nbsp;</p>
+<p><a href="https://github.com/jobycxa/authorization-lambda-at-edge-python">https://github.com/jobycxa/authorization-lambda-at-edge-python</a></p>
+<p>&nbsp;</p>
+<h1><a id="user-content-how-to" class="anchor" href="https://github.com/jobycxa/authorization-lambda-at-edge-python#how-to" aria-hidden="true"></a>How to</h1>
+<ol>
+<li>Create S3 bucket with static website hosting feature</li>
+<li>Create Cloudfront distribution with S3 bucket origin</li>
+<li>Crete lambda function(python3.7) in N.Virginia Region</li>
+<li>Configure Cloudfront Behaviour to trigger Viewer Request(Lambda Function Associations) and choose lambda function</li>
+<li>Deploy lambda function to Lamba@Edge</li>
+<li>Create dynamodb table and add items</li>
+</ol>
